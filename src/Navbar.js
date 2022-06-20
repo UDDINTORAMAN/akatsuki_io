@@ -17,7 +17,8 @@ const navigation = [
     { name: 'Merch', href: './Merch', current: false },
     { name: 'Gallery', href: './Gallery', current: false },
     { name: 'Reports', href: './Reports', current: false },
-    // { name: 'API', href: './API', current: false },
+    { name: 'API 1', href: './API1', current: false },
+    // { name: 'API 2', href: './Api', current: false },
 ]
 const userNavigation = [
     { name: 'Your Profile', href: './Profile' },

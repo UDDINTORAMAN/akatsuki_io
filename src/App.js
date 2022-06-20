@@ -8,6 +8,8 @@ const Merch = lazy(() => import('./Merch'));
 const Gallery = lazy(() => import('./Gallery'));
 const Reports = lazy(() => import('./Reports'));
 const Signing = lazy(() => import('./Signing'));
+const API1 = lazy(() => import('./API1'));
+const API2 = lazy(() => import('./API2'));
 
 
 const App = () => (
@@ -21,6 +23,8 @@ const App = () => (
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/Reports" element={<Reports />} />
         <Route path="/Signing" element={<Signing />} />
+        <Route path="/API1" element={<API1 />} />
+        <Route path="/API2" element={<API2 />} />
 
       </Routes>
     </Suspense>
